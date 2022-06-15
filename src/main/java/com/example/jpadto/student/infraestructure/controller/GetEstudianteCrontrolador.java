@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/EstudianteG")
 public class GetEstudianteCrontrolador {
 
-    @Autowired
+    @Autowired(required = true)
     private StudentInterface studentInterface;
     @Autowired
     private UsuarioServicioInterface usuarioServicio;

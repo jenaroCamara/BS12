@@ -17,6 +17,7 @@ import java.util.List;
 public interface UsuarioServicioInterface {
     public OutputDTOPersona guardar(InputDTOPersona persona) throws Exception;
     public List<Object> getUsuarios(String queryParam);
+    public List<OutputDTOpersonafull> getall();
     public List<Object> getUsuariosByName(@PathVariable String nombre, String queryParam)throws Exception;
     public OutputDTOpersonafull getUserById(String id) throws Exception;
     public InputDTOPersona actualiza(@RequestBody InputDTOPersona usuario) throws Exception;

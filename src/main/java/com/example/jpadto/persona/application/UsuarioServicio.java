@@ -122,4 +122,12 @@ public class UsuarioServicio implements UsuarioServicioInterface {
         estudiante.getAsignaturas().remove(id_topic);
         return modelMapper.map(estudiante.getAsignaturas(), OutputDTOAlumnos_estudios.class);
     }
+
+    public List<OutputDTOpersonafull> getall(){
+        List<Persona> personas = personaRepositorio.findAll();
+        List<OutputDTOpersonafull> personasdto = personas.stream()
+                .map(Usuario -> modelMapper.map(Usuario,OutputDTOpersonafull.class))
+                .collect(Collectors.toList());
+        return personasdto;
+    }
 }
