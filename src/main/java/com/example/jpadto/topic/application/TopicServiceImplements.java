@@ -1,6 +1,6 @@
 package com.example.jpadto.topic.application;
 
-import com.example.jpadto.application.UsuarioServicioInterface;
+import com.example.jpadto.persona.application.port.UsuarioServicioInterface;
 import com.example.jpadto.topic.application.port.topicService;
 import com.example.jpadto.topic.domain.Topic;
 import com.example.jpadto.topic.infraestructure.dto.input.inputDTOtopic;

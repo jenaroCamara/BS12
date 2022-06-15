@@ -1,4 +1,4 @@
-package com.example.jpadto.application;
+package com.example.jpadto.persona.application.port;
 
 import com.example.jpadto.alumnos_estudios.infraestructure.dto.output.OutputDTOAlumnos_estudios;
 import com.example.jpadto.persona.infraestructure.dto.output.OutputDTOpersonafull;

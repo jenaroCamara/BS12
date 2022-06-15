@@ -1,25 +1,18 @@
-package com.example.jpadto.application;
+package com.example.jpadto.persona.application;
 
 import com.example.jpadto.alumnos_estudios.application.port.alumnos_estudiosService;
 import com.example.jpadto.alumnos_estudios.infraestructure.dto.output.OutputDTOAlumnos_estudios;
+import com.example.jpadto.persona.application.port.UsuarioServicioInterface;
 import com.example.jpadto.persona.infraestructure.dto.output.OutputDTOpersonafull;
-import com.example.jpadto.profesor.domain.Profesor;
 import com.example.jpadto.student.domain.Student;
 import com.example.jpadto.exceptions.BeanNotFoundException;
 import com.example.jpadto.exceptions.UnprocesableException;
-import com.example.jpadto.profesor.infraestructure.dto.input.InputDTOProfesor;
-import com.example.jpadto.student.infraestructure.dto.input.InputDTOStudent;
 import com.example.jpadto.persona.infraestructure.dto.input.InputDTOPersona;
 import com.example.jpadto.persona.domain.Persona;
-import com.example.jpadto.profesor.infraestructure.dto.output.OutputDTOProfesor;
-import com.example.jpadto.student.infraestructure.dto.output.Student.OutputDTOStudent;
 import com.example.jpadto.persona.infraestructure.dto.output.OutputDTOPersona;
-import com.example.jpadto.student.infraestructure.dto.output.Student.OutputDTOStudentFull;
 import com.example.jpadto.student.infraestructure.repository.EstudianteRepositorio;
 import com.example.jpadto.profesor.infraestructure.repository.ProfesorRepositorio;
 import com.example.jpadto.persona.infraestructure.repository.PersonaRepositorio;
-import com.example.jpadto.topic.domain.Topic;
-import com.example.jpadto.topic.infraestructure.dto.input.inputDTOtopic;
 import com.example.jpadto.topic.infraestructure.repository.TopicRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

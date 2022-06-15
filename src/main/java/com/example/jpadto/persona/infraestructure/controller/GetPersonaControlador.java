@@ -1,7 +1,7 @@
 package com.example.jpadto.persona.infraestructure.controller;
 
 import com.example.jpadto.persona.infraestructure.dto.output.OutputDTOPersona;
-import com.example.jpadto.application.UsuarioServicioInterface;
+import com.example.jpadto.persona.application.port.UsuarioServicioInterface;
 import com.example.jpadto.persona.infraestructure.dto.output.OutputDTOpersonafull;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,7 +2,7 @@ package com.example.jpadto.student.infraestructure.controller;
 
 
 import com.example.jpadto.alumnos_estudios.infraestructure.dto.output.OutputDTOAlumnos_estudios;
-import com.example.jpadto.application.UsuarioServicioInterface;
+import com.example.jpadto.persona.application.port.UsuarioServicioInterface;
 import com.example.jpadto.student.application.port.StudentInterface;
 import com.example.jpadto.student.infraestructure.dto.output.Student.OutputDTOStudent;
 import org.modelmapper.ModelMapper;
